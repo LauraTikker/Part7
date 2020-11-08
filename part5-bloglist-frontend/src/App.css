@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+}
+
+.h4 {
+  margin-bottom: 20px;
+}
+
+.h4 {
+  margin-bottom: 20px;
+}
+
+.logging-in-fields  {
+  margin-bottom: 20px;
+}
+
+.logging-in-text  {
+  margin-right: 20px;
+}
+
+.creating-new-blog-text  {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.creating-new-blog  {
+  margin-bottom: 20px;
+}
+
+.logged-in-user {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.document {
+  margin: 40px;
+}
+
+.log-in-button {
+  margin: 10px;
+  background: rgb(12, 247, 12);
+  font-size: 15px;
+  border-radius: 5px;
+  color: black;
+  padding: 10px;
+}
+
+.cancel-button {
+  margin: 10px;
+  background: blueviolet;
+  font-size: 15px;
+  border-radius: 5px;
+  color: black;
+  padding: 10px;
+}
+
+.blog {
+  margin: 20px;
+  color: black;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.blog-details {
+  margin-left: 20px;
+}
+
+.blog-details-button {
+  margin: 20px;
+  border-radius: 5px;
+  color: black;
+  padding: 10px;
+}
+
+.error {
+  color: red;
+  background: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.success  {
+  color: greenyellow;
+  background: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.log-out-button  {
+  margin-left: 20px;
+  background: rgb(12, 247, 12);
+  font-size: 15px;
+  border-radius: 5px;
+  color: black;
+  padding: 10px;
+}
+
+.creating-new-blog-button {
+  margin-left: 20px;
+  background: rgb(12, 247, 12);
+  font-size: 15px;
+  border-radius: 5px;
+  color: black;
+  padding: 10px;
+}
+
+th, td {
+  border: 1px solid green;
+  text-align: center;
+  height: 30px;
+}
+
+.links {
+  margin: 20px;
+  padding: 10px;
+  background: greenyellow;
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+}
+
+.creat-new-comment {
+  margin-left: 20px;
+  background: rgb(12, 247, 12);
+  font-size: 15px;
+  border-radius: 5px;
+  color: black;
+  padding: 10px;
+}
