@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { addBlog } from '../reducers/blogsReducer'
-import '../App.css'
 
 const BlogForm = (
   { showNotice, blogFormRef }) => {

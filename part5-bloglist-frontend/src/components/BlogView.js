@@ -2,8 +2,6 @@ import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useParams } from 'react-router-dom'
 import { changeBlog, removeBlog } from '../reducers/blogsReducer'
-import '../App.css'
-
 
 const Blog = ({ showNotice, user }) => {
   const id = useParams().id

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 import { initUsers } from '../reducers/usersReducer'
+import { Table } from 'react-bootstrap'
 
 const Users = () => {
   const [users, setUsers] = useState(null)
@@ -24,7 +25,7 @@ const Users = () => {
         setUsers(usersWithBlogs)
       }
     )
-  }, [])
+  }, [dispatch])
 
 
   return (
@@ -32,7 +33,7 @@ const Users = () => {
       {users !== null ?
         <div>
           <h2>Users</h2>
-          <table>
+          <Table striped bordered hover>
             <thead>
               <tr>
                 <th>Name</th>
@@ -47,7 +48,7 @@ const Users = () => {
                 </tr>)
               })}
             </tbody>
-          </table>
+          </Table>
         </div> : null}
     </div>
   )
